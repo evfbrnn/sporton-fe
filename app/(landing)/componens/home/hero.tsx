@@ -23,11 +23,11 @@ const HeroSection = () => {
             Engineered for endurance and designed for speed. Experience gear that moves as fast as you do. Premium fabrics. Unmatched comfort. Limitless motion.
         </p>
         <div className="flex gap-5 mt-14">
-            <Button>
+            <Button size="normal">
                 Explore More! <FiFastForward />
             </Button>
             
-            <Button variant="ghost">
+            <Button size="normal" variant="ghost">
                 Watch Video 
                 <Image src="/images/icon-play-video.svg" alt="icon playvideo" width={30} height={30} />
             </Button>
